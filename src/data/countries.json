@@ -1,0 +1,648 @@
+[
+  { "name": "Andorra", "shortName": "Principality of Andorra", "code": "AD", "isoCode": "AND", "description": "" },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "shortName": "Territory of the French Southern and Antarctic Lands",
+    "code": "TF",
+    "isoCode": "ATF",
+    "description": ""
+  },
+  {
+    "name": "Laos",
+    "shortName": "Lao People's Democratic Republic",
+    "code": "LA",
+    "isoCode": "LAO",
+    "description": ""
+  },
+  { "name": "Canada", "shortName": "Canada", "code": "CA", "isoCode": "CAN", "description": "" },
+  { "name": "Nigeria", "shortName": "Federal Republic of Nigeria", "code": "NG", "isoCode": "NGA", "description": "" },
+  { "name": "Vanuatu", "shortName": "Republic of Vanuatu", "code": "VU", "isoCode": "VUT", "description": "" },
+  { "name": "Czechia", "shortName": "Czech Republic", "code": "CZ", "isoCode": "CZE", "description": "" },
+  { "name": "Malawi", "shortName": "Republic of Malawi", "code": "MW", "isoCode": "MWI", "description": "" },
+  { "name": "Mali", "shortName": "Republic of Mali", "code": "ML", "isoCode": "MLI", "description": "" },
+  { "name": "Iceland", "shortName": "Iceland", "code": "IS", "isoCode": "ISL", "description": "" },
+  { "name": "Norway", "shortName": "Kingdom of Norway", "code": "NO", "isoCode": "NOR", "description": "" },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "shortName": "Saint Vincent and the Grenadines",
+    "code": "VC",
+    "isoCode": "VCT",
+    "description": ""
+  },
+  { "name": "Guadeloupe", "shortName": "Guadeloupe", "code": "GP", "isoCode": "GLP", "description": "" },
+  { "name": "Chile", "shortName": "Republic of Chile", "code": "CL", "isoCode": "CHL", "description": "" },
+  { "name": "Bermuda", "shortName": "Bermuda", "code": "BM", "isoCode": "BMU", "description": "" },
+  { "name": "Kuwait", "shortName": "State of Kuwait", "code": "KW", "isoCode": "KWT", "description": "" },
+  { "name": "Dominica", "shortName": "Commonwealth of Dominica", "code": "DM", "isoCode": "DMA", "description": "" },
+  { "name": "Montenegro", "shortName": "Montenegro", "code": "ME", "isoCode": "MNE", "description": "" },
+  {
+    "name": "United States Virgin Islands",
+    "shortName": "Virgin Islands of the United States",
+    "code": "VI",
+    "isoCode": "VIR",
+    "description": ""
+  },
+  { "name": "Cameroon", "shortName": "Republic of Cameroon", "code": "CM", "isoCode": "CMR", "description": "" },
+  {
+    "name": "Sri Lanka",
+    "shortName": "Democratic Socialist Republic of Sri Lanka",
+    "code": "LK",
+    "isoCode": "LKA",
+    "description": ""
+  },
+  { "name": "China", "shortName": "People's Republic of China", "code": "CN", "isoCode": "CHN", "description": "" },
+  {
+    "name": "Bangladesh",
+    "shortName": "People's Republic of Bangladesh",
+    "code": "BD",
+    "isoCode": "BGD",
+    "description": ""
+  },
+  { "name": "Sweden", "shortName": "Kingdom of Sweden", "code": "SE", "isoCode": "SWE", "description": "" },
+  { "name": "Grenada", "shortName": "Grenada", "code": "GD", "isoCode": "GRD", "description": "" },
+  { "name": "Turkey", "shortName": "Republic of Turkey", "code": "TR", "isoCode": "TUR", "description": "" },
+  { "name": "Guinea", "shortName": "Republic of Guinea", "code": "GN", "isoCode": "GIN", "description": "" },
+  { "name": "Tanzania", "shortName": "United Republic of Tanzania", "code": "TZ", "isoCode": "TZA", "description": "" },
+  { "name": "Rwanda", "shortName": "Republic of Rwanda", "code": "RW", "isoCode": "RWA", "description": "" },
+  { "name": "Singapore", "shortName": "Republic of Singapore", "code": "SG", "isoCode": "SGP", "description": "" },
+  { "name": "Morocco", "shortName": "Kingdom of Morocco", "code": "MA", "isoCode": "MAR", "description": "" },
+  {
+    "name": "Saint Barthélemy",
+    "shortName": "Collectivity of Saint Barthélemy",
+    "code": "BL",
+    "isoCode": "BLM",
+    "description": ""
+  },
+  { "name": "Iraq", "shortName": "Republic of Iraq", "code": "IQ", "isoCode": "IRQ", "description": "" },
+  {
+    "name": "Brunei",
+    "shortName": "Nation of Brunei, Abode of Peace",
+    "code": "BN",
+    "isoCode": "BRN",
+    "description": ""
+  },
+  { "name": "Isle of Man", "shortName": "Isle of Man", "code": "IM", "isoCode": "IMN", "description": "" },
+  {
+    "name": "North Korea",
+    "shortName": "Democratic People's Republic of Korea",
+    "code": "KP",
+    "isoCode": "PRK",
+    "description": ""
+  },
+  { "name": "Iran", "shortName": "Islamic Republic of Iran", "code": "IR", "isoCode": "IRN", "description": "" },
+  { "name": "Curaçao", "shortName": "Country of Curaçao", "code": "CW", "isoCode": "CUW", "description": "" },
+  { "name": "Paraguay", "shortName": "Republic of Paraguay", "code": "PY", "isoCode": "PRY", "description": "" },
+  { "name": "Albania", "shortName": "Republic of Albania", "code": "AL", "isoCode": "ALB", "description": "" },
+  { "name": "Tajikistan", "shortName": "Republic of Tajikistan", "code": "TJ", "isoCode": "TJK", "description": "" },
+  {
+    "name": "Bolivia",
+    "shortName": "Plurinational State of Bolivia",
+    "code": "BO",
+    "isoCode": "BOL",
+    "description": ""
+  },
+  { "name": "Austria", "shortName": "Republic of Austria", "code": "AT", "isoCode": "AUT", "description": "" },
+  {
+    "name": "Saint Kitts and Nevis",
+    "shortName": "Federation of Saint Christopher and Nevis",
+    "code": "KN",
+    "isoCode": "KNA",
+    "description": ""
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "shortName": "United States Minor Outlying Islands",
+    "code": "UM",
+    "isoCode": "UMI",
+    "description": ""
+  },
+  { "name": "Colombia", "shortName": "Republic of Colombia", "code": "CO", "isoCode": "COL", "description": "" },
+  { "name": "Kosovo", "shortName": "Republic of Kosovo", "code": "XK", "isoCode": "UNK", "description": "" },
+  { "name": "Belize", "shortName": "Belize", "code": "BZ", "isoCode": "BLZ", "description": "" },
+  {
+    "name": "Guinea-Bissau",
+    "shortName": "Republic of Guinea-Bissau",
+    "code": "GW",
+    "isoCode": "GNB",
+    "description": ""
+  },
+  {
+    "name": "Marshall Islands",
+    "shortName": "Republic of the Marshall Islands",
+    "code": "MH",
+    "isoCode": "MHL",
+    "description": ""
+  },
+  {
+    "name": "Myanmar",
+    "shortName": "Republic of the Union of Myanmar",
+    "code": "MM",
+    "isoCode": "MMR",
+    "description": ""
+  },
+  { "name": "French Polynesia", "shortName": "French Polynesia", "code": "PF", "isoCode": "PYF", "description": "" },
+  { "name": "Brazil", "shortName": "Federative Republic of Brazil", "code": "BR", "isoCode": "BRA", "description": "" },
+  { "name": "Croatia", "shortName": "Republic of Croatia", "code": "HR", "isoCode": "HRV", "description": "" },
+  { "name": "Somalia", "shortName": "Federal Republic of Somalia", "code": "SO", "isoCode": "SOM", "description": "" },
+  {
+    "name": "Afghanistan",
+    "shortName": "Islamic Republic of Afghanistan",
+    "code": "AF",
+    "isoCode": "AFG",
+    "description": ""
+  },
+  { "name": "Anguilla", "shortName": "Anguilla", "code": "AI", "isoCode": "AIA", "description": "" },
+  { "name": "Cook Islands", "shortName": "Cook Islands", "code": "CK", "isoCode": "COK", "description": "" },
+  {
+    "name": "Western Sahara",
+    "shortName": "Sahrawi Arab Democratic Republic",
+    "code": "EH",
+    "isoCode": "ESH",
+    "description": ""
+  },
+  { "name": "New Zealand", "shortName": "New Zealand", "code": "NZ", "isoCode": "NZL", "description": "" },
+  { "name": "Eritrea", "shortName": "State of Eritrea", "code": "ER", "isoCode": "ERI", "description": "" },
+  { "name": "Cambodia", "shortName": "Kingdom of Cambodia", "code": "KH", "isoCode": "KHM", "description": "" },
+  { "name": "Bahamas", "shortName": "Commonwealth of the Bahamas", "code": "BS", "isoCode": "BHS", "description": "" },
+  { "name": "Belarus", "shortName": "Republic of Belarus", "code": "BY", "isoCode": "BLR", "description": "" },
+  {
+    "name": "Norfolk Island",
+    "shortName": "Territory of Norfolk Island",
+    "code": "NF",
+    "isoCode": "NFK",
+    "description": ""
+  },
+  { "name": "Tuvalu", "shortName": "Tuvalu", "code": "TV", "isoCode": "TUV", "description": "" },
+  {
+    "name": "South Georgia",
+    "shortName": "South Georgia and the South Sandwich Islands",
+    "code": "GS",
+    "isoCode": "SGS",
+    "description": ""
+  },
+  {
+    "name": "Mauritania",
+    "shortName": "Islamic Republic of Mauritania",
+    "code": "MR",
+    "isoCode": "MRT",
+    "description": ""
+  },
+  { "name": "New Caledonia", "shortName": "New Caledonia", "code": "NC", "isoCode": "NCL", "description": "" },
+  { "name": "Bulgaria", "shortName": "Republic of Bulgaria", "code": "BG", "isoCode": "BGR", "description": "" },
+  { "name": "Mozambique", "shortName": "Republic of Mozambique", "code": "MZ", "isoCode": "MOZ", "description": "" },
+  { "name": "Niue", "shortName": "Niue", "code": "NU", "isoCode": "NIU", "description": "" },
+  { "name": "Estonia", "shortName": "Republic of Estonia", "code": "EE", "isoCode": "EST", "description": "" },
+  { "name": "Italy", "shortName": "Italian Republic", "code": "IT", "isoCode": "ITA", "description": "" },
+  { "name": "Malta", "shortName": "Republic of Malta", "code": "MT", "isoCode": "MLT", "description": "" },
+  { "name": "Slovenia", "shortName": "Republic of Slovenia", "code": "SI", "isoCode": "SVN", "description": "" },
+  { "name": "India", "shortName": "Republic of India", "code": "IN", "isoCode": "IND", "description": "" },
+  { "name": "Peru", "shortName": "Republic of Peru", "code": "PE", "isoCode": "PER", "description": "" },
+  { "name": "Burundi", "shortName": "Republic of Burundi", "code": "BI", "isoCode": "BDI", "description": "" },
+  { "name": "Lithuania", "shortName": "Republic of Lithuania", "code": "LT", "isoCode": "LTU", "description": "" },
+  {
+    "name": "United States",
+    "shortName": "United States of America",
+    "code": "US",
+    "isoCode": "USA",
+    "description": ""
+  },
+  { "name": "Honduras", "shortName": "Republic of Honduras", "code": "HN", "isoCode": "HND", "description": "" },
+  { "name": "Tonga", "shortName": "Kingdom of Tonga", "code": "TO", "isoCode": "TON", "description": "" },
+  { "name": "Saudi Arabia", "shortName": "Kingdom of Saudi Arabia", "code": "SA", "isoCode": "SAU", "description": "" },
+  { "name": "Suriname", "shortName": "Republic of Suriname", "code": "SR", "isoCode": "SUR", "description": "" },
+  { "name": "Qatar", "shortName": "State of Qatar", "code": "QA", "isoCode": "QAT", "description": "" },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "shortName": "Saint Helena, Ascension and Tristan da Cunha",
+    "code": "SH",
+    "isoCode": "SHN",
+    "description": ""
+  },
+  { "name": "Gibraltar", "shortName": "Gibraltar", "code": "GI", "isoCode": "GIB", "description": "" },
+  {
+    "name": "Northern Mariana Islands",
+    "shortName": "Commonwealth of the Northern Mariana Islands",
+    "code": "MP",
+    "isoCode": "MNP",
+    "description": ""
+  },
+  { "name": "Mauritius", "shortName": "Republic of Mauritius", "code": "MU", "isoCode": "MUS", "description": "" },
+  { "name": "Barbados", "shortName": "Barbados", "code": "BB", "isoCode": "BRB", "description": "" },
+  { "name": "Réunion", "shortName": "Réunion Island", "code": "RE", "isoCode": "REU", "description": "" },
+  {
+    "name": "British Indian Ocean Territory",
+    "shortName": "British Indian Ocean Territory",
+    "code": "IO",
+    "isoCode": "IOT",
+    "description": ""
+  },
+  { "name": "Syria", "shortName": "Syrian Arab Republic", "code": "SY", "isoCode": "SYR", "description": "" },
+  { "name": "Egypt", "shortName": "Arab Republic of Egypt", "code": "EG", "isoCode": "EGY", "description": "" },
+  {
+    "name": "São Tomé and Príncipe",
+    "shortName": "Democratic Republic of São Tomé and Príncipe",
+    "code": "ST",
+    "isoCode": "STP",
+    "description": ""
+  },
+  {
+    "name": "Kiribati",
+    "shortName": "Independent and Sovereign Republic of Kiribati",
+    "code": "KI",
+    "isoCode": "KIR",
+    "description": ""
+  },
+  {
+    "name": "Timor-Leste",
+    "shortName": "Democratic Republic of Timor-Leste",
+    "code": "TL",
+    "isoCode": "TLS",
+    "description": ""
+  },
+  { "name": "Lesotho", "shortName": "Kingdom of Lesotho", "code": "LS", "isoCode": "LSO", "description": "" },
+  { "name": "Solomon Islands", "shortName": "Solomon Islands", "code": "SB", "isoCode": "SLB", "description": "" },
+  { "name": "Libya", "shortName": "State of Libya", "code": "LY", "isoCode": "LBY", "description": "" },
+  { "name": "South Korea", "shortName": "Republic of Korea", "code": "KR", "isoCode": "KOR", "description": "" },
+  {
+    "name": "Liechtenstein",
+    "shortName": "Principality of Liechtenstein",
+    "code": "LI",
+    "isoCode": "LIE",
+    "description": ""
+  },
+  { "name": "Nicaragua", "shortName": "Republic of Nicaragua", "code": "NI", "isoCode": "NIC", "description": "" },
+  { "name": "Ecuador", "shortName": "Republic of Ecuador", "code": "EC", "isoCode": "ECU", "description": "" },
+  { "name": "Maldives", "shortName": "Republic of the Maldives", "code": "MV", "isoCode": "MDV", "description": "" },
+  {
+    "name": "Algeria",
+    "shortName": "People's Democratic Republic of Algeria",
+    "code": "DZ",
+    "isoCode": "DZA",
+    "description": ""
+  },
+  { "name": "Kyrgyzstan", "shortName": "Kyrgyz Republic", "code": "KG", "isoCode": "KGZ", "description": "" },
+  { "name": "Finland", "shortName": "Republic of Finland", "code": "FI", "isoCode": "FIN", "description": "" },
+  { "name": "Antarctica", "shortName": "Antarctica", "code": "AQ", "isoCode": "ATA", "description": "" },
+  { "name": "Kenya", "shortName": "Republic of Kenya", "code": "KE", "isoCode": "KEN", "description": "" },
+  { "name": "Cuba", "shortName": "Republic of Cuba", "code": "CU", "isoCode": "CUB", "description": "" },
+  { "name": "Montserrat", "shortName": "Montserrat", "code": "MS", "isoCode": "MSR", "description": "" },
+  { "name": "Poland", "shortName": "Republic of Poland", "code": "PL", "isoCode": "POL", "description": "" },
+  { "name": "Åland Islands", "shortName": "Åland Islands", "code": "AX", "isoCode": "ALA", "description": "" },
+  {
+    "name": "Ethiopia",
+    "shortName": "Federal Democratic Republic of Ethiopia",
+    "code": "ET",
+    "isoCode": "ETH",
+    "description": ""
+  },
+  { "name": "Togo", "shortName": "Togolese Republic", "code": "TG", "isoCode": "TGO", "description": "" },
+  {
+    "name": "Bosnia and Herzegovina",
+    "shortName": "Bosnia and Herzegovina",
+    "code": "BA",
+    "isoCode": "BIH",
+    "description": ""
+  },
+  { "name": "Uruguay", "shortName": "Oriental Republic of Uruguay", "code": "UY", "isoCode": "URY", "description": "" },
+  { "name": "Guam", "shortName": "Guam", "code": "GU", "isoCode": "GUM", "description": "" },
+  { "name": "Cape Verde", "shortName": "Republic of Cabo Verde", "code": "CV", "isoCode": "CPV", "description": "" },
+  { "name": "Chad", "shortName": "Republic of Chad", "code": "TD", "isoCode": "TCD", "description": "" },
+  { "name": "Vatican City", "shortName": "Vatican City State", "code": "VA", "isoCode": "VAT", "description": "" },
+  { "name": "Palau", "shortName": "Republic of Palau", "code": "PW", "isoCode": "PLW", "description": "" },
+  { "name": "Haiti", "shortName": "Republic of Haiti", "code": "HT", "isoCode": "HTI", "description": "" },
+  { "name": "Yemen", "shortName": "Republic of Yemen", "code": "YE", "isoCode": "YEM", "description": "" },
+  { "name": "Eswatini", "shortName": "Kingdom of Eswatini", "code": "SZ", "isoCode": "SWZ", "description": "" },
+  { "name": "Zimbabwe", "shortName": "Republic of Zimbabwe", "code": "ZW", "isoCode": "ZWE", "description": "" },
+  { "name": "Greece", "shortName": "Hellenic Republic", "code": "GR", "isoCode": "GRC", "description": "" },
+  { "name": "Israel", "shortName": "State of Israel", "code": "IL", "isoCode": "ISR", "description": "" },
+  { "name": "Saint Martin", "shortName": "Saint Martin", "code": "MF", "isoCode": "MAF", "description": "" },
+  {
+    "name": "Antigua and Barbuda",
+    "shortName": "Antigua and Barbuda",
+    "code": "AG",
+    "isoCode": "ATG",
+    "description": ""
+  },
+  { "name": "Cyprus", "shortName": "Republic of Cyprus", "code": "CY", "isoCode": "CYP", "description": "" },
+  { "name": "Sint Maarten", "shortName": "Sint Maarten", "code": "SX", "isoCode": "SXM", "description": "" },
+  { "name": "Monaco", "shortName": "Principality of Monaco", "code": "MC", "isoCode": "MCO", "description": "" },
+  { "name": "Fiji", "shortName": "Republic of Fiji", "code": "FJ", "isoCode": "FJI", "description": "" },
+  { "name": "Ukraine", "shortName": "Ukraine", "code": "UA", "isoCode": "UKR", "description": "" },
+  { "name": "Martinique", "shortName": "Martinique", "code": "MQ", "isoCode": "MTQ", "description": "" },
+  {
+    "name": "Hong Kong",
+    "shortName": "Hong Kong Special Administrative Region of the People's Republic of China",
+    "code": "HK",
+    "isoCode": "HKG",
+    "description": ""
+  },
+  { "name": "Portugal", "shortName": "Portuguese Republic", "code": "PT", "isoCode": "PRT", "description": "" },
+  { "name": "Bhutan", "shortName": "Kingdom of Bhutan", "code": "BT", "isoCode": "BTN", "description": "" },
+  {
+    "name": "Nepal",
+    "shortName": "Federal Democratic Republic of Nepal",
+    "code": "NP",
+    "isoCode": "NPL",
+    "description": ""
+  },
+  { "name": "France", "shortName": "French Republic", "code": "FR", "isoCode": "FRA", "description": "" },
+  { "name": "Ireland", "shortName": "Republic of Ireland", "code": "IE", "isoCode": "IRL", "description": "" },
+  {
+    "name": "United Arab Emirates",
+    "shortName": "United Arab Emirates",
+    "code": "AE",
+    "isoCode": "ARE",
+    "description": ""
+  },
+  { "name": "Guernsey", "shortName": "Bailiwick of Guernsey", "code": "GG", "isoCode": "GGY", "description": "" },
+  { "name": "Saint Lucia", "shortName": "Saint Lucia", "code": "LC", "isoCode": "LCA", "description": "" },
+  {
+    "name": "Dominican Republic",
+    "shortName": "Dominican Republic",
+    "code": "DO",
+    "isoCode": "DOM",
+    "description": ""
+  },
+  { "name": "Serbia", "shortName": "Republic of Serbia", "code": "RS", "isoCode": "SRB", "description": "" },
+  { "name": "Botswana", "shortName": "Republic of Botswana", "code": "BW", "isoCode": "BWA", "description": "" },
+  {
+    "name": "Ivory Coast",
+    "shortName": "Republic of Côte d'Ivoire",
+    "code": "CI",
+    "isoCode": "CIV",
+    "description": ""
+  },
+  { "name": "Ghana", "shortName": "Republic of Ghana", "code": "GH", "isoCode": "GHA", "description": "" },
+  { "name": "Comoros", "shortName": "Union of the Comoros", "code": "KM", "isoCode": "COM", "description": "" },
+  { "name": "Azerbaijan", "shortName": "Republic of Azerbaijan", "code": "AZ", "isoCode": "AZE", "description": "" },
+  {
+    "name": "United Kingdom",
+    "shortName": "United Kingdom of Great Britain and Northern Ireland",
+    "code": "GB",
+    "isoCode": "GBR",
+    "description": ""
+  },
+  {
+    "name": "Central African Republic",
+    "shortName": "Central African Republic",
+    "code": "CF",
+    "isoCode": "CAF",
+    "description": ""
+  },
+  { "name": "Palestine", "shortName": "State of Palestine", "code": "PS", "isoCode": "PSE", "description": "" },
+  {
+    "name": "Caribbean Netherlands",
+    "shortName": "Bonaire, Sint Eustatius and Saba",
+    "code": "BQ",
+    "isoCode": "BES",
+    "description": ""
+  },
+  { "name": "Taiwan", "shortName": "Republic of China (Taiwan)", "code": "TW", "isoCode": "TWN", "description": "" },
+  {
+    "name": "Pitcairn Islands",
+    "shortName": "Pitcairn Group of Islands",
+    "code": "PN",
+    "isoCode": "PCN",
+    "description": ""
+  },
+  { "name": "San Marino", "shortName": "Republic of San Marino", "code": "SM", "isoCode": "SMR", "description": "" },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "shortName": "Svalbard og Jan Mayen",
+    "code": "SJ",
+    "isoCode": "SJM",
+    "description": ""
+  },
+  { "name": "Djibouti", "shortName": "Republic of Djibouti", "code": "DJ", "isoCode": "DJI", "description": "" },
+  {
+    "name": "Wallis and Futuna",
+    "shortName": "Territory of the Wallis and Futuna Islands",
+    "code": "WF",
+    "isoCode": "WLF",
+    "description": ""
+  },
+  { "name": "Denmark", "shortName": "Kingdom of Denmark", "code": "DK", "isoCode": "DNK", "description": "" },
+  {
+    "name": "Papua New Guinea",
+    "shortName": "Independent State of Papua New Guinea",
+    "code": "PG",
+    "isoCode": "PNG",
+    "description": ""
+  },
+  { "name": "Madagascar", "shortName": "Republic of Madagascar", "code": "MG", "isoCode": "MDG", "description": "" },
+  { "name": "Bouvet Island", "shortName": "Bouvet Island", "code": "BV", "isoCode": "BVT", "description": "" },
+  { "name": "Hungary", "shortName": "Hungary", "code": "HU", "isoCode": "HUN", "description": "" },
+  { "name": "Tokelau", "shortName": "Tokelau", "code": "TK", "isoCode": "TKL", "description": "" },
+  {
+    "name": "Trinidad and Tobago",
+    "shortName": "Republic of Trinidad and Tobago",
+    "code": "TT",
+    "isoCode": "TTO",
+    "description": ""
+  },
+  { "name": "Gambia", "shortName": "Republic of the Gambia", "code": "GM", "isoCode": "GMB", "description": "" },
+  { "name": "Luxembourg", "shortName": "Grand Duchy of Luxembourg", "code": "LU", "isoCode": "LUX", "description": "" },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "shortName": "Territory of the Cocos (Keeling) Islands",
+    "code": "CC",
+    "isoCode": "CCK",
+    "description": ""
+  },
+  {
+    "name": "Republic of the Congo",
+    "shortName": "Republic of the Congo",
+    "code": "CG",
+    "isoCode": "COG",
+    "description": ""
+  },
+  { "name": "Argentina", "shortName": "Argentine Republic", "code": "AR", "isoCode": "ARG", "description": "" },
+  {
+    "name": "DR Congo",
+    "shortName": "Democratic Republic of the Congo",
+    "code": "CD",
+    "isoCode": "COD",
+    "description": ""
+  },
+  { "name": "Greenland", "shortName": "Greenland", "code": "GL", "isoCode": "GRL", "description": "" },
+  { "name": "Jordan", "shortName": "Hashemite Kingdom of Jordan", "code": "JO", "isoCode": "JOR", "description": "" },
+  { "name": "Belgium", "shortName": "Kingdom of Belgium", "code": "BE", "isoCode": "BEL", "description": "" },
+  { "name": "Switzerland", "shortName": "Swiss Confederation", "code": "CH", "isoCode": "CHE", "description": "" },
+  { "name": "Indonesia", "shortName": "Republic of Indonesia", "code": "ID", "isoCode": "IDN", "description": "" },
+  { "name": "Lebanon", "shortName": "Lebanese Republic", "code": "LB", "isoCode": "LBN", "description": "" },
+  { "name": "Malaysia", "shortName": "Malaysia", "code": "MY", "isoCode": "MYS", "description": "" },
+  { "name": "Cayman Islands", "shortName": "Cayman Islands", "code": "KY", "isoCode": "CYM", "description": "" },
+  { "name": "Slovakia", "shortName": "Slovak Republic", "code": "SK", "isoCode": "SVK", "description": "" },
+  { "name": "Armenia", "shortName": "Republic of Armenia", "code": "AM", "isoCode": "ARM", "description": "" },
+  {
+    "name": "Christmas Island",
+    "shortName": "Territory of Christmas Island",
+    "code": "CX",
+    "isoCode": "CXR",
+    "description": ""
+  },
+  { "name": "Mongolia", "shortName": "Mongolia", "code": "MN", "isoCode": "MNG", "description": "" },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "shortName": "Saint Pierre and Miquelon",
+    "code": "PM",
+    "isoCode": "SPM",
+    "description": ""
+  },
+  { "name": "Japan", "shortName": "Japan", "code": "JP", "isoCode": "JPN", "description": "" },
+  {
+    "name": "South Africa",
+    "shortName": "Republic of South Africa",
+    "code": "ZA",
+    "isoCode": "ZAF",
+    "description": ""
+  },
+  {
+    "name": "Philippines",
+    "shortName": "Republic of the Philippines",
+    "code": "PH",
+    "isoCode": "PHL",
+    "description": ""
+  },
+  {
+    "name": "Micronesia",
+    "shortName": "Federated States of Micronesia",
+    "code": "FM",
+    "isoCode": "FSM",
+    "description": ""
+  },
+  { "name": "Germany", "shortName": "Federal Republic of Germany", "code": "DE", "isoCode": "DEU", "description": "" },
+  { "name": "Latvia", "shortName": "Republic of Latvia", "code": "LV", "isoCode": "LVA", "description": "" },
+  { "name": "Jamaica", "shortName": "Jamaica", "code": "JM", "isoCode": "JAM", "description": "" },
+  {
+    "name": "Macau",
+    "shortName": "Macao Special Administrative Region of the People's Republic of China",
+    "code": "MO",
+    "isoCode": "MAC",
+    "description": ""
+  },
+  { "name": "Nauru", "shortName": "Republic of Nauru", "code": "NR", "isoCode": "NRU", "description": "" },
+  { "name": "Faroe Islands", "shortName": "Faroe Islands", "code": "FO", "isoCode": "FRO", "description": "" },
+  {
+    "name": "Guyana",
+    "shortName": "Co-operative Republic of Guyana",
+    "code": "GY",
+    "isoCode": "GUY",
+    "description": ""
+  },
+  { "name": "Burkina Faso", "shortName": "Burkina Faso", "code": "BF", "isoCode": "BFA", "description": "" },
+  { "name": "Sudan", "shortName": "Republic of the Sudan", "code": "SD", "isoCode": "SDN", "description": "" },
+  { "name": "Russia", "shortName": "Russian Federation", "code": "RU", "isoCode": "RUS", "description": "" },
+  { "name": "Mayotte", "shortName": "Department of Mayotte", "code": "YT", "isoCode": "MYT", "description": "" },
+  { "name": "Australia", "shortName": "Commonwealth of Australia", "code": "AU", "isoCode": "AUS", "description": "" },
+  { "name": "Liberia", "shortName": "Republic of Liberia", "code": "LR", "isoCode": "LBR", "description": "" },
+  { "name": "Mexico", "shortName": "United Mexican States", "code": "MX", "isoCode": "MEX", "description": "" },
+  { "name": "Tunisia", "shortName": "Tunisian Republic", "code": "TN", "isoCode": "TUN", "description": "" },
+  { "name": "Aruba", "shortName": "Aruba", "code": "AW", "isoCode": "ABW", "description": "" },
+  { "name": "Kazakhstan", "shortName": "Republic of Kazakhstan", "code": "KZ", "isoCode": "KAZ", "description": "" },
+  { "name": "Oman", "shortName": "Sultanate of Oman", "code": "OM", "isoCode": "OMN", "description": "" },
+  { "name": "French Guiana", "shortName": "Guiana", "code": "GF", "isoCode": "GUF", "description": "" },
+  { "name": "Niger", "shortName": "Republic of Niger", "code": "NE", "isoCode": "NER", "description": "" },
+  { "name": "Turkmenistan", "shortName": "Turkmenistan", "code": "TM", "isoCode": "TKM", "description": "" },
+  {
+    "name": "Sierra Leone",
+    "shortName": "Republic of Sierra Leone",
+    "code": "SL",
+    "isoCode": "SLE",
+    "description": ""
+  },
+  { "name": "Samoa", "shortName": "Independent State of Samoa", "code": "WS", "isoCode": "WSM", "description": "" },
+  { "name": "Senegal", "shortName": "Republic of Senegal", "code": "SN", "isoCode": "SEN", "description": "" },
+  { "name": "Georgia", "shortName": "Georgia", "code": "GE", "isoCode": "GEO", "description": "" },
+  { "name": "Namibia", "shortName": "Republic of Namibia", "code": "NA", "isoCode": "NAM", "description": "" },
+  { "name": "South Sudan", "shortName": "Republic of South Sudan", "code": "SS", "isoCode": "SSD", "description": "" },
+  { "name": "Thailand", "shortName": "Kingdom of Thailand", "code": "TH", "isoCode": "THA", "description": "" },
+  { "name": "Bahrain", "shortName": "Kingdom of Bahrain", "code": "BH", "isoCode": "BHR", "description": "" },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "shortName": "Heard Island and McDonald Islands",
+    "code": "HM",
+    "isoCode": "HMD",
+    "description": ""
+  },
+  { "name": "Falkland Islands", "shortName": "Falkland Islands", "code": "FK", "isoCode": "FLK", "description": "" },
+  { "name": "Jersey", "shortName": "Bailiwick of Jersey", "code": "JE", "isoCode": "JEY", "description": "" },
+  {
+    "name": "Vietnam",
+    "shortName": "Socialist Republic of Vietnam",
+    "code": "VN",
+    "isoCode": "VNM",
+    "description": ""
+  },
+  { "name": "Guatemala", "shortName": "Republic of Guatemala", "code": "GT", "isoCode": "GTM", "description": "" },
+  { "name": "Moldova", "shortName": "Republic of Moldova", "code": "MD", "isoCode": "MDA", "description": "" },
+  {
+    "name": "North Macedonia",
+    "shortName": "Republic of North Macedonia",
+    "code": "MK",
+    "isoCode": "MKD",
+    "description": ""
+  },
+  { "name": "Uzbekistan", "shortName": "Republic of Uzbekistan", "code": "UZ", "isoCode": "UZB", "description": "" },
+  { "name": "Romania", "shortName": "Romania", "code": "RO", "isoCode": "ROU", "description": "" },
+  { "name": "Uganda", "shortName": "Republic of Uganda", "code": "UG", "isoCode": "UGA", "description": "" },
+  { "name": "El Salvador", "shortName": "Republic of El Salvador", "code": "SV", "isoCode": "SLV", "description": "" },
+  { "name": "Zambia", "shortName": "Republic of Zambia", "code": "ZM", "isoCode": "ZMB", "description": "" },
+  { "name": "Gabon", "shortName": "Gabonese Republic", "code": "GA", "isoCode": "GAB", "description": "" },
+  {
+    "name": "Equatorial Guinea",
+    "shortName": "Republic of Equatorial Guinea",
+    "code": "GQ",
+    "isoCode": "GNQ",
+    "description": ""
+  },
+  { "name": "Spain", "shortName": "Kingdom of Spain", "code": "ES", "isoCode": "ESP", "description": "" },
+  {
+    "name": "Netherlands",
+    "shortName": "Kingdom of the Netherlands",
+    "code": "NL",
+    "isoCode": "NLD",
+    "description": ""
+  },
+  {
+    "name": "British Virgin Islands",
+    "shortName": "Virgin Islands",
+    "code": "VG",
+    "isoCode": "VGB",
+    "description": ""
+  },
+  { "name": "Benin", "shortName": "Republic of Benin", "code": "BJ", "isoCode": "BEN", "description": "" },
+  {
+    "name": "Pakistan",
+    "shortName": "Islamic Republic of Pakistan",
+    "code": "PK",
+    "isoCode": "PAK",
+    "description": ""
+  },
+  { "name": "Panama", "shortName": "Republic of Panama", "code": "PA", "isoCode": "PAN", "description": "" },
+  {
+    "name": "Turks and Caicos Islands",
+    "shortName": "Turks and Caicos Islands",
+    "code": "TC",
+    "isoCode": "TCA",
+    "description": ""
+  },
+  { "name": "Angola", "shortName": "Republic of Angola", "code": "AO", "isoCode": "AGO", "description": "" },
+  { "name": "American Samoa", "shortName": "American Samoa", "code": "AS", "isoCode": "ASM", "description": "" },
+  {
+    "name": "Venezuela",
+    "shortName": "Bolivarian Republic of Venezuela",
+    "code": "VE",
+    "isoCode": "VEN",
+    "description": ""
+  },
+  { "name": "Costa Rica", "shortName": "Republic of Costa Rica", "code": "CR", "isoCode": "CRI", "description": "" },
+  {
+    "name": "Puerto Rico",
+    "shortName": "Commonwealth of Puerto Rico",
+    "code": "PR",
+    "isoCode": "PRI",
+    "description": ""
+  },
+  { "name": "Seychelles", "shortName": "Republic of Seychelles", "code": "SC", "isoCode": "SYC", "description": "" }
+]
