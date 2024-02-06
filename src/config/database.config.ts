@@ -22,9 +22,9 @@ const sequelizeOpts: Options = {
 }
 
 
+export const sequelize = new Sequelize(getEnv('SQL_DATABASE'), getEnv('SQL_USERNAME'), getEnv('SQL_PASSWORD'), sequelizeOpts)
 const connectDb = async () => {
   try {
-    const sequelize = new Sequelize(getEnv('SQL_DATABASE'), getEnv('SQL_USERNAME'), getEnv('SQL_PASSWORD'), sequelizeOpts)
     await sequelize.authenticate()
     console.log('Database connected!');
   } catch (error) {

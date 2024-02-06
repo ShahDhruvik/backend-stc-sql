@@ -3,9 +3,7 @@ import { Request } from 'express';
 import { USER_TYPES } from '../utils/constants';
 
 export type DefaultTableFieldsT = {
-  _id: any;
-  createdAt: any;
-  updatedAt: any;
+  id: any;
   deletedAt: any;
   createdBy: any;
   updatedBy: any;

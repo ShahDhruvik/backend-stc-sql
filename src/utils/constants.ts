@@ -1,7 +1,5 @@
 export enum MODEL_NAMES {
-  Country = 'Country',
   User = 'User',
-  EventLog = 'EventLog',
 }
 export enum USER_TYPES {
   USER = 'USER',
