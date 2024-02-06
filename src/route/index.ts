@@ -3,10 +3,8 @@
  */
 
 import express from 'express';
-import commonRoute from './common.route';
 
 const routes = [
-    { route: commonRoute },
 ];
 
 const appRoute = express.Router();

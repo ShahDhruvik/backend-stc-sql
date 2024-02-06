@@ -43,13 +43,3 @@ export type FilterArguments = {
   currentPage: number;
 };
 
-export type CurrencyAttributes = {
-  label: string;
-  value: string;
-  isActive: boolean;
-};
-export type LanguageAttributes = {
-  label: string;
-  value: string;
-  isActive: boolean;
-};

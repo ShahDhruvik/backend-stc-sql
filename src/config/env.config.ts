@@ -25,6 +25,7 @@ interface ICustomProcessEnv {
   SQL_PASSWORD: string
   SQL_DIALECT: string
   SQL_HOST: string
+  SQL_PORT: string
 }
 
 /**
