@@ -1,10 +1,9 @@
-/**
- * @description Gather all routes (including common and all modules) in this router.
- */
 
 import express from 'express';
+import userRt from './user.route';
 
 const routes = [
+    { route: userRt }
 ];
 
 const appRoute = express.Router();

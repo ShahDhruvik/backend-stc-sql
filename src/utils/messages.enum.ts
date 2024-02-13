@@ -24,6 +24,12 @@ export enum COMMON_MESSAGE {
   NonEmptyMessage = 'This field cannot be empty',
   ValidEmail = 'Provide a valid email.',
   UseDifferentEmail = 'Use a different email, Email already exists .',
+  Created = 'Created',
+  Updated = "Updated",
+  NotUpdated = 'User not found or not updated.'
+}
+export enum MODEL_VALIDATION_MESSAGE {
+  Email = 'Invalid Email'
 }
 
 export enum STATUS_CODES {

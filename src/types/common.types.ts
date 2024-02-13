@@ -4,13 +4,15 @@ import { USER_TYPES } from '../utils/constants';
 
 export type DefaultTableFieldsT = {
   id: any;
-  deletedAt: any;
-  createdBy: any;
-  updatedBy: any;
-  deletedBy: any;
+  // deletedAt: any;
+  // createdBy: any;
+  // updatedBy: any;
+  // deletedBy: any;
+  createdAt: any
+  updatedAt: any
   isDeleted: boolean;
   isActive: boolean;
-  isNewRecord?: boolean;
+  // isNewRecord?: boolean;
 };
 
 export type CustomJwtPayload = {

@@ -1,19 +1,39 @@
 import express from 'express';
 import {
     createUserCt,
+    editUserCt,
+    inActiveUserCt,
+    deleteUserCt,
 } from '../controller/user.controller';
 import schemaValidator from '../middleware/schemaValidator.middleware';
 import { UserSchema } from '../model/user.model';
-import { USER_ROUTE } from '../utils/route.enums';
-const userRoute = express.Router();
+import { USER_RT } from '../utils/route.enums';
+const userRt = express.Router();
 
-userRoute.post(
-    USER_ROUTE.create,
+userRt.post(
+    USER_RT.create,
     schemaValidator(UserSchema),
     createUserCt,
 );
+userRt.put(
+    USER_RT.edit,
+    editUserCt,
+);
+userRt.put(
+    USER_RT.inActive,
+    inActiveUserCt,
+);
+userRt.put(
+    USER_RT.delete,
+    deleteUserCt,
+);
+userRt.put(
+    USER_RT.delete,
+    deleteUserCt,
+);
 
-export default userRoute;
+
+export default userRt;
 
 /**
  * @openapi

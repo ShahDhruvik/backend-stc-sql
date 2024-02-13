@@ -17,6 +17,7 @@ export default function asyncHandler(
     try {
       return await handler(req, res, next);
     } catch (error) {
+      console.log(error)
       const errMsg = error?.message || RESPONSE_MESSAGE_CODES.UnknownError;
       // const event = (<CustomExpressRequest>req)?.event;
       // if (event) {

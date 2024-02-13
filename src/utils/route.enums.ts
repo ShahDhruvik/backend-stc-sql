@@ -11,7 +11,7 @@ export enum COMMON_ROUTE {
 //   userDropdown = '/user/dropdown',
 // }
 
-export enum USER_ROUTE {
+export enum USER_RT {
   create = '/user/create',
   delete = '/user/delete/:id',
   inActive = '/user/inActive/:id',
@@ -19,5 +19,4 @@ export enum USER_ROUTE {
   listAll = '/user',
   dropdown = '/user/dropdown',
   getOne = '/user/getOne',
-  getAllIds = '/user/get-all-ids',
 }

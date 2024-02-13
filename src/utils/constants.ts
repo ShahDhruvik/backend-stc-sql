@@ -1,5 +1,5 @@
 export enum MODEL_NAMES {
-  User = 'User',
+  User = 'Users',
 }
 export enum USER_TYPES {
   USER = 'USER',
