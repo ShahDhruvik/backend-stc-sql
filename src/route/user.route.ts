@@ -4,6 +4,8 @@ import {
     editUserCt,
     inActiveUserCt,
     deleteUserCt,
+    getOneUserCt,
+    getAllUserCt
 } from '../controller/user.controller';
 import schemaValidator from '../middleware/schemaValidator.middleware';
 import { UserSchema } from '../model/user.model';
@@ -30,6 +32,14 @@ userRt.put(
 userRt.put(
     USER_RT.delete,
     deleteUserCt,
+);
+userRt.get(
+    USER_RT.getOne,
+    getOneUserCt,
+);
+userRt.get(
+    USER_RT.listAll,
+    getAllUserCt,
 );
 
 

@@ -2,7 +2,9 @@ import {
     createUserSv,
     editUserSv,
     inActiveUserSv,
-    deleteUserSv
+    deleteUserSv,
+    getOneUserSv,
+    getAllUserSv
 } from '../services/user.services';
 
 export const createUserCt = async (req, res, next) => {
@@ -19,6 +21,14 @@ export const inActiveUserCt = async (req, res, next) => {
 };
 export const deleteUserCt = async (req, res, next) => {
     const result = await deleteUserSv(req, res, next);
+    return res.json(result);
+};
+export const getOneUserCt = async (req, res, next) => {
+    const result = await getOneUserSv(req, res, next);
+    return res.json(result);
+};
+export const getAllUserCt = async (req, res, next) => {
+    const result = await getAllUserSv(req, res, next);
     return res.json(result);
 };
 

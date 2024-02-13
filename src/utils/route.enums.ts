@@ -18,5 +18,5 @@ export enum USER_RT {
   edit = '/user/edit/:id',
   listAll = '/user',
   dropdown = '/user/dropdown',
-  getOne = '/user/getOne',
+  getOne = '/user/getOne/:id',
 }
