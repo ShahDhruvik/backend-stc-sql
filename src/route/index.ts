@@ -1,9 +1,11 @@
 
 import express from 'express';
 import userRt from './user.route';
+import userDetailsRt from './user-details.route';
 
 const routes = [
-    { route: userRt }
+    { route: userRt },
+    { route: userDetailsRt },
 ];
 
 const appRoute = express.Router();

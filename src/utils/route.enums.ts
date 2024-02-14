@@ -20,3 +20,12 @@ export enum USER_RT {
   dropdown = '/user/dropdown',
   getOne = '/user/getOne/:id',
 }
+export enum USER_DETAILS_RT {
+  create = '/user-details/create',
+  delete = '/user-details/delete/:id',
+  inActive = '/user-details/inActive/:id',
+  edit = '/user-details/edit/:id',
+  listAll = '/user-details',
+  dropdown = '/user-details/dropdown',
+  getOne = '/user-details/getOne/:id',
+}

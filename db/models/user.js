@@ -15,21 +15,13 @@ User.init(
       autoIncrement: true,
       primaryKey: true,
     },
-    firstName: {
+    name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    lastName: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      defaultValue: '',
-    },
-    email: {
+    mobile: {
       type: DataTypes.STRING,
       allowNull: true, // Change to false if email is compulsory
-      validate: {
-        isEmail: true, // Validate email format
-      },
     },
     isActive: {
       type: DataTypes.BOOLEAN,

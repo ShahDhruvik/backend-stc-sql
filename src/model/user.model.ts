@@ -5,6 +5,7 @@ import { sequelize } from '../config/database.config';
 import { MODEL_NAMES } from '../utils/constants';
 import { optionalTextInput } from '../helpers/common.helper';
 import { MODEL_VALIDATION_MESSAGE } from '../utils/messages.enum';
+import UserDetails from './user-details.model';
 
 const User = sequelize.define<UserModel>(
     MODEL_NAMES.User,
@@ -14,19 +15,13 @@ const User = sequelize.define<UserModel>(
             autoIncrement: true,
             primaryKey: true,
         },
-        firstName: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        lastName: {
+        mobile: {
             type: DataTypes.STRING,
             allowNull: true,
-            defaultValue: ''
-        },
-        email: {
-            type: DataTypes.STRING,
-            allowNull: true,
-            validate: { isEmail: { msg: MODEL_VALIDATION_MESSAGE.Email } }
         },
         isActive: {
             type: DataTypes.BOOLEAN,
@@ -49,11 +44,10 @@ const User = sequelize.define<UserModel>(
     },
     { timestamps: true },
 );
-
+User.hasOne(UserDetails, { foreignKey: 'userId' });
 export const UserSchema = z.object({
-    firstName: z.string(),
-    lastName: optionalTextInput(z.string()),
-    email: z.string().email(),
+    name: z.string(),
+    mobile: z.string(),
 });
 
 export default User;
