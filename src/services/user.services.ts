@@ -14,6 +14,7 @@ export const createUserSv = asyncHandler(async (req: CustomExpressRequest, res) 
     return responseWrapper(true, COMMON_MESSAGE.Created, 201, newData, undefined);
   }
 });
+
 export const editUserSv = asyncHandler(async (req: CustomExpressRequest, res) => {
   const { id } = req.params;
   const updateParams = req.body;
@@ -27,6 +28,7 @@ export const editUserSv = asyncHandler(async (req: CustomExpressRequest, res) =>
     return responseWrapper(false, COMMON_MESSAGE.NotUpdated, 201, undefined, undefined);
   }
 });
+
 export const inActiveUserSv = asyncHandler(async (req: CustomExpressRequest, res) => {
   const { id } = req.params;
   const { isActive } = req.body;
@@ -40,6 +42,7 @@ export const inActiveUserSv = asyncHandler(async (req: CustomExpressRequest, res
     return responseWrapper(false, COMMON_MESSAGE.NotUpdated, 201, undefined, undefined);
   }
 });
+
 export const deleteUserSv = asyncHandler(async (req: CustomExpressRequest, res) => {
   const { id } = req.params;
   const { isDeleted } = req.body;
@@ -56,6 +59,7 @@ export const deleteUserSv = asyncHandler(async (req: CustomExpressRequest, res) 
     return responseWrapper(false, COMMON_MESSAGE.NotUpdated, 201, undefined, undefined);
   }
 });
+
 export const getOneUserSv = asyncHandler(async (req: CustomExpressRequest, res) => {
   const { id } = req.params;
   const query = 'SELECT get_one_user(:user_id)';
@@ -74,6 +78,7 @@ export const getOneUserSv = asyncHandler(async (req: CustomExpressRequest, res) 
     return responseWrapper(false, COMMON_MESSAGE.NotUpdated, 201, undefined, undefined);
   }
 });
+
 export const getAllUserSv = asyncHandler(async (req: CustomExpressRequest, res) => {
   const query = 'SELECT get_all_users()';
   const updatedData = await sequelize.query(query, {

@@ -3,7 +3,7 @@ import { UserModel, UserAttributes } from '../types/user.types';
 import { z } from 'zod';
 import { sequelize } from '../config/database.config';
 import { MODEL_NAMES } from '../utils/constants';
-import { optionalTextInput } from '../helpers/common.helper';
+import UserDetails from './user-details.model';
 
 const User = sequelize.define<UserModel>(
   MODEL_NAMES.User,
@@ -46,7 +46,7 @@ const User = sequelize.define<UserModel>(
   },
   { timestamps: true },
 );
-
+User.hasOne(UserDetails, { foreignKey: 'userId' });
 export const UserSchema = z.object({
   name: z.string(),
   mobileNo: z.string().length(10).optional(),
