@@ -1,12 +1,12 @@
 import { DataTypes } from 'sequelize';
-import { UserModel, UserAttributes } from '../types/user.types';
+import { DepartmentModel } from '../types/department.types';
 import { z } from 'zod';
 import { sequelize } from '../config/database.config';
 import { MODEL_NAMES } from '../utils/constants';
 import { optionalTextInput } from '../helpers/common.helper';
 
-const User = sequelize.define<UserModel>(
-  MODEL_NAMES.User,
+const Department = sequelize.define<DepartmentModel>(
+  MODEL_NAMES.Department,
   {
     id: {
       type: DataTypes.INTEGER,
@@ -17,12 +17,9 @@ const User = sequelize.define<UserModel>(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    mobileNo: {
+    code: {
       type: DataTypes.STRING,
       allowNull: true,
-      validate: {
-        len: [10, 10], // Ensure length is exactly 10 characters
-      },
       defaultValue: '',
     },
     isActive: {
@@ -47,9 +44,9 @@ const User = sequelize.define<UserModel>(
   { timestamps: true },
 );
 
-export const UserSchema = z.object({
+export const DepartmentSchema = z.object({
   name: z.string(),
-  mobileNo: z.string().length(10).optional(),
+  code: optionalTextInput(z.string()),
 });
 
-export default User;
+export default Department;

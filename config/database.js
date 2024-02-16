@@ -4,8 +4,8 @@ require('dotenv').config();
 
 const configOpts = {
   username: 'postgres',
-  password: 'dhruvik123',
-  database: 'user-test',
+  password: 'Netutsav@123',
+  database: 'user',
   host: '127.0.0.1',
   dialect: 'postgres',
 };

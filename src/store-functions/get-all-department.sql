@@ -1,8 +1,8 @@
--- FUNCTION: public.get_all_users()
+-- FUNCTION: public.get_all_department()
 
--- DROP FUNCTION IF EXISTS public.get_all_users();
+-- DROP FUNCTION IF EXISTS public.get_all_department();
 
-CREATE OR REPLACE FUNCTION public.get_all_users(
+CREATE OR REPLACE FUNCTION public.get_all_department(
 	)
     RETURNS json
     LANGUAGE 'plpgsql'
@@ -10,24 +10,24 @@ CREATE OR REPLACE FUNCTION public.get_all_users(
     VOLATILE PARALLEL UNSAFE
 AS $BODY$
 DECLARE
-    users_json json;
+    department_json json;
 BEGIN
     -- Start transaction
     BEGIN
-        -- Select all users and aggregate them into a JSON array
+        -- Select all Departments and aggregate them into a JSON array
         SELECT json_agg(json_build_object(
             'id', id,
             'name', "name",
-            'mobileNo', "mobileNo",
+            'code', "code",
             'isActive', "isActive",
             'isDeleted', "isDeleted",
             'createdAt', "createdAt",
             'updatedAt', "updatedAt"
-        )) INTO users_json
-        FROM "Users";
+        )) INTO department_json
+        FROM "Departments";
         
         -- Commit transaction
-        RETURN users_json;
+        RETURN department_json;
     EXCEPTION
         -- Handle exceptions
         WHEN OTHERS THEN
@@ -39,5 +39,5 @@ BEGIN
 END
 $BODY$;
 
-ALTER FUNCTION public.get_all_users()
+ALTER FUNCTION public.get_all_department()
     OWNER TO postgres;

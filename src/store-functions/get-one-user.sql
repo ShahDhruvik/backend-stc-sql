@@ -16,9 +16,8 @@ BEGIN
         END IF;
         user_json := json_build_object(
             'id', user_record.id,
-            'firstName', user_record."firstName",
-            'lastName', user_record."lastName",
-			'email', user_record."email",
+            'name', user_record."name",
+            'mobileNo', user_record."mobileNo",
 			'isActive', user_record."isActive",
 			'isDeleted', user_record."isDeleted",
 			'createdAt', user_record."createdAt",
