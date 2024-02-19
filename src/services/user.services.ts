@@ -7,8 +7,8 @@ import { QueryTypes, where } from 'sequelize';
 import { sequelize } from '../config/database.config';
 
 export const createUserSv = asyncHandler(async (req: CustomExpressRequest, res) => {
-  const { name, mobileNo } = req.body;
-  const newData = await UserModel.create({ name, mobileNo });
+  const { name, mobile } = req.body;
+  const newData = await UserModel.create({ name, mobile });
   if (newData) {
     res.status(201);
     return responseWrapper(true, COMMON_MESSAGE.Created, 201, newData, undefined);

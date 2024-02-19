@@ -1,10 +1,10 @@
 import { DataTypes } from 'sequelize';
-import { UserDetailsModel, UserDetailsAttributes, Gender } from '../types/user-details.types';
+import { UserDetailsModel, Gender } from '../types/user-details.types';
 import { z } from 'zod';
 import { sequelize } from '../config/database.config';
 import { MODEL_NAMES } from '../utils/constants';
-import { optionalTextInput } from '../helpers/common.helper';
-import { COMMON_MESSAGE, MODEL_VALIDATION_MESSAGE } from '../utils/messages.enum';
+import { COMMON_MESSAGE } from '../utils/messages.enum';
+import Department from './department.model';
 
 const UserDetails = sequelize.define<UserDetailsModel>(
     MODEL_NAMES.UserDetails,
@@ -61,6 +61,7 @@ const UserDetails = sequelize.define<UserDetailsModel>(
     },
     { timestamps: true },
 );
+
 
 export const UserDetailsSchema = z.object({
     userId: z.number(),

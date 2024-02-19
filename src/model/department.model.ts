@@ -4,6 +4,7 @@ import { z } from 'zod';
 import { sequelize } from '../config/database.config';
 import { MODEL_NAMES } from '../utils/constants';
 import { optionalTextInput } from '../helpers/common.helper';
+import UserDetails from './user-details.model';
 
 const Department = sequelize.define<DepartmentModel>(
   MODEL_NAMES.Department,
@@ -43,7 +44,7 @@ const Department = sequelize.define<DepartmentModel>(
   },
   { timestamps: true },
 );
-
+Department.hasOne(UserDetails, { foreignKey: 'departmentId' })
 export const DepartmentSchema = z.object({
   name: z.string(),
   code: optionalTextInput(z.string()),

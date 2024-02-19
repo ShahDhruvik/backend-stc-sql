@@ -1,6 +1,6 @@
 export enum MODEL_NAMES {
   User = 'Users',
-  UserDetail = 'Userdetails',
+  UserDetails = 'UserDetails',
   Department = 'Departments',
   Designation = 'Designations',
 }

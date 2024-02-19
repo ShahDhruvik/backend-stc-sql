@@ -3,7 +3,7 @@ import { DefaultTableFieldsT } from './common.types';
 
 export type UserAttributes = {
   name: string;
-  mobileNo: string;
+  mobile: string;
 };
 
 export type UserModel = Model<UserAttributes & DefaultTableFieldsT>;

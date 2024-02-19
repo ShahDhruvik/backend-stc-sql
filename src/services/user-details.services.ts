@@ -72,12 +72,12 @@ export const getOneUserDetailsSv = asyncHandler(async (req: CustomExpressRequest
     }
 });
 export const getAllUserDetailsSv = asyncHandler(async (req: CustomExpressRequest, res) => {
-    const query = 'SELECT get_all_UserDetails()'
+    const query = 'SELECT get_all_user_details()'
     const updatedData = await sequelize.query(query, {
         type: QueryTypes.RAW
     })
-    if ((updatedData[0][0] as any).get_all_UserDetails) {
-        const updatedDataObject = (updatedData[0][0] as any).get_all_UserDetails;
+    if ((updatedData[0][0] as any).get_all_user_details) {
+        const updatedDataObject = (updatedData[0][0] as any).get_all_user_details;
         res.status(201);
         return responseWrapper(true, COMMON_MESSAGE.Updated, 201, updatedDataObject, undefined);
     } else {

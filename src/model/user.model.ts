@@ -17,12 +17,9 @@ const User = sequelize.define<UserModel>(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    mobileNo: {
+    mobile: {
       type: DataTypes.STRING,
       allowNull: true,
-      validate: {
-        len: [10, 10], // Ensure length is exactly 10 characters
-      },
       defaultValue: '',
     },
     isActive: {
@@ -49,7 +46,7 @@ const User = sequelize.define<UserModel>(
 User.hasOne(UserDetails, { foreignKey: 'userId' });
 export const UserSchema = z.object({
   name: z.string(),
-  mobileNo: z.string().length(10).optional(),
+  mobile: z.string().length(10).optional(),
 });
 
 export default User;
